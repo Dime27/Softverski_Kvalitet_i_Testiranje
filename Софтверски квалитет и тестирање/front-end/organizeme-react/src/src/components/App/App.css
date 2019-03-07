@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bodyContainer {
+  margin: 0px 50px;
+}
+
+.novDiv{
+  hight: 50px;
+  background-color: green;
+}
+
+.appHeader {
+  display:block;
+  padding:25px 0px;
+  background:#011936;
+}
+
+.appLogo {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  letter-spacing: -0.5px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.btnAll {
+  border-radius: 5px;
+}
+
+.btn-header {
+  background:#ED254E;
+  font-family:'Roboto', sans-serif;
+  color:#fff;
+  border-color:#ED254E;
+  font-size:14px;
+  line-height:20px;
+  padding:8px 10px;
+  font-weight:500;
+  margin-right: 10px;
+}
+
+.btn-delete {
+  background:#ED254E;
+  font-family:'Roboto', sans-serif;
+  color:#fff;
+  border-color:#ED254E;
+  font-size:14px;
+  line-height:20px;
+  padding:4px 5px;
+  font-weight:500;
+}
+
+.btn-submit {
+  background:#011936;
+  font-family:'Roboto', sans-serif;
+  color:#fff;
+  border-color:#011936;
+  font-size:14px;
+  line-height:20px;
+  padding:6px 5px;
+  font-weight:500;
+}
+
+.btn-edit {
+  padding:2px 5px !important;
+}
+
+.btn-header:hover, .btn-delete:hover, .btn-edit:hover, .btn-submit:hover {
+  background:#F9DC5C !important;
+  color:#333 !important;
+  border-color:#F9DC5C !important;
+}
+
+.cardsWidth1{
+  display: inline-block;
+  width: 55%;
+}
+
+.cardsWidth2{
+  display: inline-block;
+  width: 40%;
+  margin-left: 20px;
+}
+
+.card .bg-danger {
+  background-color: #ED254E;
+}
+
+.card .bg-dark {
+  background-color: #011936 !important;
+}
+
+.componentsMarginTop {
+  margin-top: 40px;
+}
+
+.componentsMarginBottom {
+  padding-bottom: 100px;
+}
+
+.col3NoPadding {
+  padding: 0 !important;
+}
